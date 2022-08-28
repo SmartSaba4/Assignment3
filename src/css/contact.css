@@ -1,0 +1,152 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+	text-decoration: none;
+	
+
+}
+body
+{
+
+	height: 100vh;
+	width: 100%;
+	background: darkslateblue;
+}
+.nav
+{
+	margin-top: 30px;
+	display: flex;
+	float: right;
+}
+.nav ul
+{
+	cursor: pointer;
+	list-style: none;
+	width: 600px;
+	height: 40px;
+	display: flex;
+}
+.nav ul li
+{
+	
+	display: flex;
+	font-size: 15px;
+	justify-content: center;
+	align-items:center ;
+	width: 100px;
+	height: 30px;
+	margin-right: 20px;
+	font-weight: 600;
+	border-color: lightcoral;
+	border-radius: 20px;
+}
+.bordered
+{
+	color: white;
+	border: 2px solid lightgreen;
+	border-radius: 20px;
+}
+
+.nav ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.bordered:hover
+{
+	transition: 0.5s;
+	border: 2px solid transparent;
+
+}
+.nav ul li:hover
+{
+	transition: 0.5s;
+	background: slateblue;
+}
+.comment
+{
+	width: 600px;
+	height: 500px;
+	position: absolute;
+	top: 30%;
+	left: 33%;
+}
+.box input
+{
+	border: none;
+	width: 500px;
+	height: 200px;
+	background: whitesmoke;
+	border-radius: 30px;
+}
+.comment input[type=Submit]
+{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 100px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+}
+.comment input[type=Submit]:hover
+{
+	transition: .3s;
+	color: white;
+
+	transform: scale(1.05);
+	background: slateblue;
+
+}
+img{
+	width: 40px;
+	height: 40px;
+}
+.social
+{
+	width: 600px;
+	height: 80px;
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	
+}
+.social ul
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social ul li
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 70px;
+	height: 70px;
+	list-style: none;
+	background: white;
+	border-radius: 50%;
+	margin-right: 20px;
+	border: 8px solid gray;
+}
+.social ul li:hover
+{
+	transition: 0.5s;
+	transform: scale(1.05);
+  border: 8px solid white;
+}
+h2
+{
+	position: absolute;
+	top: 72%;
+	left: 48%;
+	color: lightgray;
+	font-size: 20px;
+	font-weight: 300;
+}

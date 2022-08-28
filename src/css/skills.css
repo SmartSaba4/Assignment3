@@ -1,0 +1,274 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+	text-decoration: none;
+	
+
+}
+body
+{
+
+	height: 100vh;
+	width: 100%;
+	background: darkslateblue;
+}
+.nav
+{
+	margin-top: 30px;
+	display: flex;
+	float: right;
+}
+.nav ul
+{
+	cursor: pointer;
+	list-style: none;
+	width: 600px;
+	height: 40px;
+	display: flex;
+}
+.nav ul li
+{
+	
+	display: flex;
+	font-size: 15px;
+	justify-content: center;
+	align-items:center ;
+	width: 100px;
+	height: 30px;
+	margin-right: 20px;
+	font-weight: 600;
+	border-color: lightcoral;
+	border-radius: 20px;
+}
+.bordered
+{
+	color: white;
+	border: 2px solid lightgreen;
+	border-radius: 20px;
+}
+
+.nav ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.bordered:hover
+{
+	transition: 0.5s;
+	border: 2px solid transparent;
+
+}
+.nav ul li:hover
+{
+	transition: 0.5s;
+	background: slateblue;
+}
+.skill
+{
+	
+	width: 90%;
+	height: 100vh;
+	
+}
+.skill h1
+{
+	
+	font-size: 30px;
+	
+	padding:20px ;
+	color: lightgreen;
+}
+.skill p
+{
+	padding: 20px;
+	width: 1300px;
+	font-size: 16px;
+	position: relative;
+	top: 10%;
+	left: 30px;
+	letter-spacing: 0.5px;
+	color: white;
+	font-weight: 400;
+	word-spacing: 2px;
+
+
+
+
+}
+.skill p a{
+	color: gray;
+}
+.sk
+{
+	
+	width: 7%;
+	position: relative;
+	top: 100px;
+    left: 40px;
+	color: lightgreen;
+	font-size: 30px;
+	font-weight: 600;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	letter-spacing: 1px;
+}
+
+.s
+{
+	width: 500px;
+	height: 50vh;
+	position: relative;
+	left: 50px;
+	top: 20%;
+
+}
+.lang
+{
+	cursor: pointer;
+
+	padding-top: 10px;
+	padding-left: 20px;
+	width: 350px;
+	height: 350px;
+	background: whitesmoke;
+	border-radius: 20px;
+	
+}
+.lang:hover
+{
+	transition: 0.5s;
+	transform: scale(1.1);
+	
+	}
+	.modules:hover
+	{
+		transition: 0.5s;
+	transform: scale(1.1);
+	}
+	.tools:hover
+	{
+      transition: 0.5s;
+	transform: scale(1.1);
+	}
+.lang h2
+{
+
+color: dimgray;
+
+}
+.lang ul
+{
+	padding-top: 10px;
+	width: 50%;
+	height: 30vh;
+	position: relative;
+	left: 100px;
+	top: 20px;
+    
+}
+.lang ul li
+{
+	font-size: 16px;
+	font-weight: 100;
+	margin-left:2%;
+	margin-bottom: 8px;
+	list-style: none;
+}
+.modules
+{
+	cursor: pointer;
+ 
+	position: relative;
+	left: 435px;
+	bottom: 350px;
+	padding-left: 20px;
+	width: 350px;
+	height: 350px;
+	background: whitesmoke;
+	border-radius: 20px;
+}
+.modules h2
+{
+
+color: dimgray;
+position: relative;
+top: 10px;
+
+}
+.modules ul
+{
+	padding-top: 20px;
+	width: 50%;
+	height: 30vh;
+	position: relative;
+	left: 90px;
+	top: 20px;
+    
+}
+.modules ul li
+{
+	font-size: 16px;
+    margin-right: 30px;
+	font-weight: 100;
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+.tools
+{
+ 	cursor: pointer;
+	position: relative;
+	left: 875px;
+	bottom: 700px;
+	padding-left: 20px;
+	width: 350px;
+	height: 350px;
+	background: whitesmoke;
+	border-radius: 20px;
+}
+.tools h2
+{
+
+color: dimgray;
+position: relative;
+top: 10px;
+left: 10px;
+
+}
+.tools ul
+{
+	padding-top: 20px;
+	width: 50%;
+	height: 30vh;
+	position: relative;
+	left: 90px;
+	top: 20px;
+    
+}
+.tools ul li
+{
+	font-size: 16px;
+    margin-right: 30px;
+	font-weight: 100;
+	margin-bottom: 10px;
+	list-style: none;
+}
+.modules
+{
+	box-shadow: 30px 20px 10px  black,
+	40px 30px 20px  slateblue;
+
+}
+.tools
+{
+	box-shadow: 30px 20px 10px  black,
+	40px 30px 20px  slateblue;
+}
+.lang
+{
+	box-shadow: 30px 20px 10px  black,
+	40px 30px 20px  slateblue;
+}

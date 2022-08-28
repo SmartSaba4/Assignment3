@@ -1,0 +1,405 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+	text-decoration: none;
+	
+
+}
+body
+{
+
+	height: 100vh;
+	width: 100%;
+	background: darkslateblue;
+}
+.nav
+{
+	margin-top: 30px;
+	display: flex;
+	float: right;
+}
+.nav ul
+{
+	cursor: pointer;
+	list-style: none;
+	width: 600px;
+	height: 40px;
+	display: flex;
+}
+.nav ul li
+{
+	
+	display: flex;
+	font-size: 15px;
+	justify-content: center;
+	align-items:center ;
+	width: 100px;
+	height: 30px;
+	margin-right: 20px;
+	font-weight: 600;
+	border-color: lightcoral;
+	border-radius: 20px;
+}
+.bordered
+{
+	color: white;
+	border: 2px solid lightgreen;
+	border-radius: 20px;
+}
+
+.nav ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.bordered:hover
+{
+	transition: 0.5s;
+	border: 2px solid transparent;
+
+}
+.nav ul li:hover
+{
+	transition: 0.5s;
+	background: slateblue;
+}
+h1
+{
+	width: 300px;
+	padding: 10px;
+	color: white;
+	margin-left: 110px;
+	margin-top: 20px;
+	color: lightgreen;
+	font-size: 30px;
+	border-left: 3px solid lightgreen;
+	border-bottom: 3px solid lightgreen;
+}
+video
+{
+	position: relative;
+	bottom: 50px;
+	width: 300px;
+	height: 300px;
+	margin: 25px;
+	border-radius: 20px;
+
+}
+img
+{
+	position: relative;
+	bottom: 10px;
+	width: 300px;
+	height: 200px;
+	margin: 25px;
+	border-radius: 20px;
+}
+.project-video
+{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	
+}
+.video-cart
+{
+	position: relative;
+	top: 50px;
+	margin-right: 30px;
+	width: 350px;
+	height: 520px;
+	background: white;
+	border-radius: 30px;
+	box-shadow: 20px 10px 10px black;
+}
+.video-cart h2
+{
+	height: 50px;
+	width: 270px;
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	left: 40px;
+	bottom: 50px;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 20px;
+}
+.video-cart p
+{
+	letter-spacing: 0.5px;
+	position: relative;
+	bottom: 40px;
+	padding: 15px;
+}
+.project-unity
+{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: 50px;
+	left: 100px;
+	
+}
+.sl
+{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+}
+.image-cart
+{
+    position: relative;
+    right: 60px;
+	top: 50px;
+	margin-right: 30px;
+	width: 350px;
+	height: 520px;
+	background: white;
+	border-radius: 30px;
+	box-shadow: 20px 10px 10px black;
+}
+.image-cart h2
+{
+	height: 50px;
+	width: 270px;
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	left: 40px;
+	bottom: 20px;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 20px;
+}
+.image-cart p
+{
+	letter-spacing: 0.5px;
+	position: relative;
+	bottom: 20px;
+	padding: 15px;
+}
+
+
+.image1-cart
+{
+    position: relative;
+    right: 120px;
+	top: 50px;
+	margin-right: 30px;
+	width: 350px;
+	height: 520px;
+
+	background: white;
+	border-radius: 30px;
+	box-shadow: 20px 10px 10px black;
+}
+.image1-cart h2
+{
+	height: 50px;
+	width: 270px;
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	left: 40px;
+	bottom: 20px;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 20px;
+}
+.image1-cart p
+{
+	letter-spacing: 0.5px;
+	position: relative;
+	bottom: 20px;
+	padding: 15px;
+}
+.gallery1
+{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	
+}
+.img-cart
+{
+	position: relative;
+	top: 150px;
+	margin-right: 30px;
+	width: 350px;
+	height: 520px;
+	background: white;
+	border-radius: 30px;
+	box-shadow: 20px 10px 10px black;
+}
+.img-cart h2
+{
+	height: 50px;
+	width: 270px;
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	left: 40px;
+	bottom: 20px;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 20px;
+}
+.img-cart p
+{
+	letter-spacing: 0.5px;
+	position: relative;
+	bottom: 10px;
+	padding: 15px;
+}
+h5
+{
+	position: relative;
+	top: 30%;
+	width: 300px;
+	padding: 10px;
+	color: white;
+	margin-left: 110px;
+	margin-top: 20px;
+	color: lightgreen;
+	font-size: 30px;
+	border-left: 3px solid lightgreen;
+	border-bottom: 3px solid lightgreen;
+
+}
+
+
+/*_______________________________________________*/
+.web
+{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	
+}
+.web-cart1
+{
+	position: relative;
+	top: 250px;
+	margin-right: 30px;
+	width: 350px;
+	height: 520px;
+	background: white;
+	border-radius: 30px;
+	box-shadow: 20px 10px 10px black;
+}
+.web-cart1 h2
+{
+	height: 50px;
+	width: 270px;
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	left: 40px;
+	bottom: 20px;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 20px;
+}
+.web-cart1 p
+{
+	letter-spacing: 0.5px;
+	position: relative;
+	bottom: 10px;
+	padding: 15px;
+}
+
+
+/*_______________________________________________*/
+.web1
+{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	
+}
+.web-cart2
+{
+	position: relative;
+	top: 300px;
+	margin-right: 30px;
+	width: 350px;
+	height: 520px;
+	background: white;
+	border-radius: 30px;
+	box-shadow: 20px 10px 10px black;
+}
+.web-cart2 h2
+{
+	height: 50px;
+	width: 270px;
+	position: relative;
+	font-size: 20px;
+	padding: 10px;
+	left: 40px;
+	bottom: 20px;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 20px;
+}
+.web-cart2 p
+{
+	letter-spacing: 0.5px;
+	position: relative;
+	bottom: 10px;
+	padding: 15px;
+}
+/*-----------------Hover Effects----------*/
+.video-cart:hover
+{
+	cursor: pointer;
+	transition: 0.5s;
+    transform: scale(1.05);
+}
+.image-cart:hover
+{
+		cursor: pointer;
+
+		transition: 0.5s;
+
+  transform: scale(1.05);
+}
+.image1-cart:hover
+{
+		cursor: pointer;
+
+		transition: 0.5s;
+
+ transform: scale(1.05);
+}
+.img-cart:hover
+{	transition: 0.5s;
+		cursor: pointer;
+
+
+  transform: scale(1.05);
+}
+.web-cart1:hover
+{
+		cursor: pointer;
+
+		transition: 0.5s;
+
+  transform: scale(1.05);
+}
+.web-cart2:hover
+
+{
+	cursor: pointer;
+	transition: 0.5s;
+
+ transform: scale(1.05);
+}

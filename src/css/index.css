@@ -1,0 +1,171 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+
+}
+body
+{
+
+	height: 100vh;
+	width: 100%;
+	background: darkslateblue;
+}
+.nav
+{
+	margin-top: 30px;
+	display: flex;
+	float: right;
+}
+.nav ul
+{
+	cursor: pointer;
+	list-style: none;
+	width: 600px;
+	height: 40px;
+	display: flex;
+}
+.nav ul li
+{
+	display: flex;
+	font-size: 15px;
+	justify-content: center;
+	align-items:center ;
+	width: 100px;
+	height: 30px;
+	margin-right: 20px;
+	font-weight: 600;
+	border-color: lightcoral;
+}
+.bordered
+{
+	color: white;
+	border: 2px solid lightgreen;
+	border-radius: 20px;
+}
+.bordered:hover
+{
+	transition: 0.5s;
+	border-color: lightgreen;
+}
+.nav ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.nav ul li:hover
+{
+	transition: 0.01s;
+	border-bottom: 1px solid lightgreen;
+}
+body h1
+{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	font-size: 80px;
+	color: white;
+	letter-spacing: 0.09em;
+
+}
+.roles
+{
+	position: absolute;
+	display: inline-flex;
+	top: 60%;
+	left: 21%;
+}
+.roles .static
+{
+	color: lightgreen;
+	font-size: 40px;
+	font-weight: 400;
+}
+.roles .dynamic-roles
+{
+	margin-left: 15px;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+}
+.roles .dynamic-roles  li
+{
+	
+	list-style: none;
+	font-size: 40px;
+	font-weight: 700;
+	position: relative;
+	top: 0;
+	animation:slide 6s steps(3) infinite;
+
+}
+@keyframes slide
+{
+	100%
+	{
+		top: -150px;
+	}
+}
+.roles .dynamic-roles  li span
+{
+	color: lightcoral;
+	position: relative;
+
+}
+.roles .dynamic-roles  li span::after
+{
+	content: "";
+	background: darkslateblue;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	border-left: 2px solid lightgreen;
+	animation:typing 2s steps(11) infinite;
+}
+@keyframes typing
+{
+	100%
+	{
+      left: 100%;
+      margin: 0 -35px 0 35px;
+
+	}
+}
+.social
+{
+    position: relative;
+    bottom:20%;
+    left: 50%;
+	width: 200px;
+	height: 40px;
+	
+}
+.social ul
+{
+	cursor: pointer;
+	list-style: none;
+	display: flex;
+
+}
+.social ul li img
+{
+	
+
+width: 55px;
+height: 55px;
+margin-right: 20px;
+border: 7px solid gray;
+padding: 10px;
+border-radius: 50%;
+background: white;
+color: gray;
+}
+.social ul li img:hover
+{
+	transition: 0.2s;
+	border: 8px solid lightgray;
+
+}
